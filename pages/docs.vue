@@ -2,7 +2,7 @@
 	<div class="prose max-w-[100%]">
 		<h1>API Documentation</h1>
 		<p>
-			Beeble Indonesia is an API provider that offers a comprehensive set
+			Alkitab Indonesia is an API provider that offers a comprehensive set
 			of tools and resources for developers who want to integrate Bible
 			data into their applications.
 		</p>
@@ -12,10 +12,10 @@
 			book, chapter, and verse title, numbers, and contents.
 		</p>
 		<p>
-			The Bible content in Beeble Indonesia's API is sourced from
+			The Bible content in Alkitab Indonesia's API is sourced from
 			<Nuxt-Link to="https://labs.sabda.org/API">SABDA LABS</Nuxt-Link>.
-			It's important to note that Beeble Indonesia is not affiliated with
-			the SABDA. Developers can use Beeble Indonesia's API to retrieve
+			It's important to note that Alkitab Indonesia is not affiliated with
+			the SABDA. Developers can use Alkitab Indonesia's API to retrieve
 			passage lists and content, which are sourced from SABDA's database.
 			With clear documentation and easy-to-use endpoints.
 		</p>
@@ -32,14 +32,14 @@
 			<tbody>
 				<tr>
 					<td>GET</td>
-					<td>https://beeble.vercel.app</td>
+					<td>https://alkitab.hkbppansuran.live</td>
 					<td>/api/v1/passage/list</td>
 				</tr>
 			</tbody>
 		</table>
 		<h3 class="font-bold mb-1">Response</h3>
-		<Nuxt-Link to="https://beeble.vercel.app/api/v1/passage/list">
-			https://beeble.vercel.app/api/v1/passage/list
+		<Nuxt-Link to="https://alkitab.hkbppansuran.live/api/v1/passage/list">
+			https://alkitab.hkbppansuran.live/api/v1/passage/list
 		</Nuxt-Link>
 		<pre>
 {
@@ -74,7 +74,7 @@
 			<tbody>
 				<tr>
 					<td>GET</td>
-					<td>https://beeble.vercel.app</td>
+					<td>https://alkitab.hkbppansuran.live</td>
 					<td>
 						/api/v1/passage/<span class="font-bold">{abbr}</span
 						>/<span class="font-bold">{chapter}</span>
@@ -92,8 +92,8 @@
 			</li>
 		</ul>
 		<h3 class="font-bold mb-1">Response</h3>
-		<Nuxt-Link to="https://beeble.vercel.app/api/v1/passage/Kej/1">
-			https://beeble.vercel.app/api/v1/passage/Kej/1
+		<Nuxt-Link to="https://alkitab.hkbppansuran.live/api/v1/passage/Kej/1">
+			https://alkitab.hkbppansuran.live/api/v1/passage/Kej/1
 		</Nuxt-Link>
 		<pre>
 {
@@ -124,12 +124,12 @@
 
 <script setup>
 useHead({
-	title: "Docs | Beeble Indonesia",
+	title: "Docs | Alkitab Indonesia",
 	meta: [
 		{
 			name: "description",
 			content:
-				"Beeble Indonesia is an API provider that offers a comprehensive set of tools and resources for developers who want to integrate Bible data into their applications.",
+				"Alkitab Indonesia is an API provider that offers a comprehensive set of tools and resources for developers who want to integrate Bible data into their applications.",
 		},
 	],
 });
