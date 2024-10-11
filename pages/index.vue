@@ -75,12 +75,12 @@
 const { fetching, data: books } = await useLazyFetch("/api/v1/passage/list");
 
 useHead({
-	title: "Home | Beeble Indonesia",
+	title: "Home | Alkitab Indonesia",
 	meta: [
 		{
 			name: "description",
 			content:
-				"Beeble Indonesia is an API provider that offers a comprehensive set of tools and resources for developers who want to integrate Bible data into their applications.",
+				"Alkitab Indonesia is an API provider that offers a comprehensive set of tools and resources for developers who want to integrate Bible data into their applications.",
 		},
 	],
 });
