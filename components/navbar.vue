@@ -6,7 +6,7 @@
 					<Nuxt-Link to="/">
 						<div class="flex h-full items-center space-x-2">
 							<span class="font-bold text-lg">
-								Beeble Indonesia
+								Alkitab Indonesia
 							</span>
 						</div>
 					</Nuxt-Link>
